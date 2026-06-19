@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Descarte Irregular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+
+    <div id="telaInicial">
+        <h1>Quiz: Descarte Irregular</h1>
+
+        <p>
+            Quiz elaborado por:
+            Miguel, Larissa, Victoria e Franciely
+        </p>
+
+        <button onclick="iniciarQuiz()">
+            Iniciar Quiz
+        </button>
+    </div>
+
+    <div id="telaQuiz" style="display:none;">
+
+        <div id="QuadroQuiz">
+
+            <div id="contadorPergunta">
+                Pergunta 1 de 10
+            </div>
+
+            <div id="cronometro">
+                Tempo: 0s
+            </div>
+
+        </div>
+
+        <div id="barraContainer">
+            <div id="barraProgresso"></div>
+        </div>
+
+        <h2 id="pergunta"></h2>
+
+        <div id="alternativas"></div>
+
+    </div>
+
+    <div id="telaFinal" style="display:none;">
+
+        <h1>Quiz Finalizado!</h1>
+
+        <p id="resultado"></p>
+
+        <div id="relatorioErros"></div>
+
+        <button onclick="reiniciarQuiz()">
+            Bora tentar de novo?
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+</section>
+
+<section>
+
+    </div>
+<section id="estudos">
+
+    <h1>Central de Estudos</h1>
+
+    <p>
+        Role os conteúdos abaixo para aprender mais sobre os temas do quiz.
+    </p>
+
+    <div class="carrossel">
+
+        <div class="card" onclick="mostrarConteudo(0)">
+            "Descarte Irregular de residuos"
+        </div>
+
+	<div class="card" onclick="mostrarConteudo(1)">
+            "Como fazer o descarte"
+        </div>
+
+	<div class="card" onclick="mostrarConteudo(2)">
+            "O que e uma sequencia de descarte irregular"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(3)">
+            "Riscos"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(4)">
+            "Gestao de residuos"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(5)">
+            "Catadores"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(6)">
+            "Residuos eletronicos"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(7)">
+            "Coleta especial"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(8)">
+            "O que pode ser considerado descarte irregular"
+        </div>
+
+
+        <div class="card" onclick="mostrarConteudo(10)">
+            "Consequencias"
+        </div>
+       
+</div>
+
+    <div id="conteudoExtra">
+
+        <h2>Selecione um tema acima</h2>
+
+    </div>
+</section>
+
+</body>
+</html>
