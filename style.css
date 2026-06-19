@@ -1,0 +1,162 @@
+button{
+    display: block;
+    margin: 30px auto;
+    background-color: rgb(37, 209, 54);
+    color: rgb(245, 245, 245);
+    border: solid 2px rgb(33, 204, 39);
+    border-radius: 15px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(60, 225, 71);
+}
+
+body{
+    background-image: url("legal/Descarte-irregular-de-lixo-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#telaInicial,
+#telaQuiz,
+#telaFinal{
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    background-color: rgb(239, 239, 239);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+#telaFinal{
+    overflow-y: auto;
+}
+
+h1{
+    color: rgba(59, 199, 32, 0.979);
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: rgb(41, 201, 57);
+    font-size: 20px;
+}
+
+#QuadroQuiz{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contadorPergunta,
+#cronometro{
+    font-weight: bold;
+    color: rgb(4, 251, 8);
+    margin-bottom: 10px;
+}
+
+#barraContainer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(36, 152, 43);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#barraProgresso{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(5, 245, 5);
+    transition: width 0.3s;
+}
+
+#pergunta{
+    color: rgb(37, 132, 37);
+    text-align: center;
+    margin: 20px 0;
+}
+
+#alternativas button{
+    width: 100%;
+    margin: 10px 0;
+}
+
+#telaFinal{
+    text-align: center;
+}
+
+#estudos{
+    background-image: url("legal/Descarte-irregular-de-lixo-1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#estudos h1{
+    color: white;
+}
+
+#estudos p{
+    color: white;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+#legal{
+    color: white;
+}
+
+.carrossel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.card{
+    background-color: rgb(37, 209, 54);
+    color: white;
+    border: solid 2px rgb(33, 204, 39);
+    border-radius: 15px;
+    width: 220px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: rgb(60, 225, 71);
+    transform: scale(1.05);
+}
+
+#conteudoExtra{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    color: black;
+}
